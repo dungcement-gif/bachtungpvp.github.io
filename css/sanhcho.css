@@ -1,0 +1,18 @@
+.HomePageBackgroundContainer {
+    background-color: #000000 !important;
+    background-image: url("https://iili.io/nviTxfa.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    filter: blur(0px) !important;
+}
+
+.HomePageBackground {
+    height: 0rem !important;
+    background-image: none !important;
+    filter: none !important;
+}
+
+.HomePageInnerRight {
+    background-color: transparent !important;
+}
