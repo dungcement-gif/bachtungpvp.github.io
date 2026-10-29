@@ -1,0 +1,21 @@
+/* ÉP TOÀN BỘ CÁC Ô CHẾ ĐỘ CHƠI THÀNH HÌNH VUÔNG XÁM ĐEN */
+div[class*="GameNode"], div[class*="GameCard"], .game-node, .game-card, [class*="lobby-item"] {
+    border-radius: 0px !important; /* Xóa bo góc */
+    border: 3px solid #ffffff !important; /* Viền trắng siêu ngầu */
+    background: #111111 !important; /* Nền xám đen */
+    box-shadow: none !important; /* Xóa bóng đổ màu */
+}
+
+/* Đổi tất cả hình ảnh bên trong các ô chế độ sang tông màu trắng đen tối giản */
+div[class*="GameNode"] img, div[class*="GameCard"] img, .game-node img, .game-card img {
+    border-radius: 0px !important;
+    filter: grayscale(100%) brightness(50%) contrast(120%) !important;
+}
+
+/* Khử tất cả các góc bo tròn lén lút khác ở sảnh chờ */
+* {
+    --border-radius: 0px !important;
+}
+div, button, img {
+    border-radius: 0px !important;
+}
